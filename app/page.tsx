@@ -12,7 +12,7 @@ const GodotGame = dynamic(() => import("@/app/components/GodotGame"), {
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen overflow-hidden">
+    <main>
       {/* GodotGame 컴포넌트는 이제 클라이언트에서만 렌더링됩니다. */}
       <GodotGame />
     </main>

@@ -3,11 +3,14 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "go": "next build && next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@rainbow-me/rainbowkit": "^2.2.5",
     "@tailwindcss/forms": "^0.5.10",
+    "@tanstack/react-query": "^5.76.1",
     "autoprefixer": "10.4.20",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
@@ -17,12 +20,15 @@
     "postgres": "^3.4.5",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "3.4.17",
+    "tailwindcss": "4.1",
     "typescript": "5.7.3",
     "use-debounce": "^10.0.4",
+    "viem": "~2.29.4",
+    "wagmi": "^2.15.3",
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
     "@types/bcrypt": "^5.0.2",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",

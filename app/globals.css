@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #eeeeee;
+  --color-secondary: #393e46;
+  --color-accent: #00adb5;
+  --color-background: #222831;
+}
+
+/* .h2 {
+  @apply text-2xl font-bold text-foreground;
+}
+
+.container {
+  @apply max-w-2xl mx-auto p-6 bg-primary rounded-xl shadow-md;
+} */
